@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(208, 255, 0);
+    color: rgb(140, 0, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+h1 {
+    color: rgb(89, 0, 255)
+}
+
+a {
+    color: rgb(38, 0, 255)
+}
+
+a:hover {
+    color: rgb(138, 77, 49)
+}
+
+ul>li {
+    font-weight: bold;
+    color: rgb(247, 45, 129)
+}
+
+hl+p {
+    background-color: black;
+    border-radius: 6px;
+    padding: 12px
+}
+
+ul li:hover {
+    color: rgb(0, 0, 0)
+}
+
+ul li::before {
+    content: "🥶😰🏸"
+}
+
+a::after {
+    content: "😱👌👌"
+}
+
+p::first-letter {
+    font-size: 300%;
+    color: rgb(0, 0, 0)
+}
